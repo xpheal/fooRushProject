@@ -31,23 +31,23 @@
             },
             {
                 "colName":"Duration",
-                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div/div[14]/time/text()"
-            },              
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[14]/time/text()"
+            },                 
             {
                 "colName":"Production",
-                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[18]/a/text()"
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[18]/a/text()"
             },
             {
                 "colName":"Release Date at Theaters",
-                "xPathString": "//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[10]/time/text()"
+                "xPathString": "//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[10]/time/text()"
             },
             {
                 "colName":"Release Date on DVD",
-                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[12]/time/text()"
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[12]/time/text()"
             },
             {
                 "colName":"Box Office Revenue",
-                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[14]/text()"
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[14]/text()"
             },
             {
                 "colName": "Cast", 
