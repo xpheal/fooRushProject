@@ -39,7 +39,7 @@
 			},
 			{
 				"colName": "Description",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()[1]"
+				"xPathString": "//div[@class=\"summary_text\"]/text()"
 			},
 			{
 				"colName": "Story",
