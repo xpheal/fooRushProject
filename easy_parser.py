@@ -37,7 +37,7 @@ def parseList(tree, xPathString):
 	else:
 		return ",".join(result).encode('utf-8').decode('utf-8').strip()
 
-with open(outputFile, 'w') as csvfile:
+with open(outputFile, 'w', encoding='utf8') as csvfile:
 	# Name for the top row
 	topRow = [i['colName'] for i in dataSettings]
 	# Number of Columns
