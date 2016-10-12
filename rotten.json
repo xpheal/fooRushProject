@@ -7,7 +7,7 @@
             },
             {
                 "colName": "Year", 
-                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()|//*[@id=\"movie-title\"]/span/text()"
+                "xPathString": "//*[@id=\"movie-title\"]/span/text()"
             },
             {
                 "colName": "Director",
