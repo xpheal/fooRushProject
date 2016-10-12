@@ -19,6 +19,7 @@ jsonFile = args.s
 inputFile = args.i
 directory = args.d
 outputFile = args.o
+ctr = 0
 
 # Get xPath settings [{"colName": "xxx", "xPathString": "yyy"}, {...}, ...]
 dataSettings = None
@@ -43,6 +44,7 @@ with open(outputFile, 'w') as csvfile:
 	lenCol = len(dataSettings)
 
 	writer = csv.writer(csvfile)
+	topRow.insert(0, "ID")
 	writer.writerow(topRow)
 
 	# Parse html files
@@ -70,4 +72,6 @@ with open(outputFile, 'w') as csvfile:
 					for i in range(lenCol):
 						row.append(parseList(tree,dataSettings[i]["xPathString"]))
 
+					row.insert(0,ctr)
 					writer.writerow(row)
+					ctr += 1
