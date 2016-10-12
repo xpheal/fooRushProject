@@ -1,0 +1,33 @@
+{
+	"data_extract_path": 
+		[
+			{
+				"colName": "Title",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/h1/text()"
+			},
+			{
+				"colName": "Category",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/a/span/text()"
+			},
+			{
+				"colName": "Duration",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/time/text()"
+			},
+			{
+				"colName": "Content Rating",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/text()[1]"
+			},
+			{
+				"colName": "Release Date",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/a/text()"
+			},
+			{
+				"colName": "Director",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[2]/span/a/span/text()"
+			},
+			{
+				"colName": "Writer",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[3]/span/a/span/text()"
+			}
+		]
+}
