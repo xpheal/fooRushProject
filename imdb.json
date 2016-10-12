@@ -26,10 +26,6 @@
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/a/text()"
 			},
 			{
-				"colName": "Popularity",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()[1]"
-			},
-			{
 				"colName": "Director",
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[2]/span/a/span/text()|//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[1]/div[2]/span/a/span/text()"
 			},					

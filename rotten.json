@@ -1,16 +1,61 @@
 {   
-    "save_html_to_directory": true,
-    "save_data_to_csv": false,
-    "allowed_domains": ["www.rottentomatoes.com"],
-    "start_urls": ["http://www.rottentomatoes.com/"],
-    "csv_output_file": "rottentomatoes_scrape_data.csv",
-    "html_directory_name": "rottentomatoes_html_files",
-    "save_file_regex": "([^/]+)\\/?$",
-    "remove_url_query": false,
-    "deny_page_regex": ["\\/m\\/trailers.*\\/?", "\\/m\\/.*\\/\\?.*\\=.*\\/?" ,"\\/m\\/.*\\/\\d{8}\\/?"],
-    "allow_page_regex": ["\\/m\\/.*\\/?$"],
-    "randomize_download_delay": 1,
-    "download_delay": 0.1,
-    "depth_priority": 1,
-    "data_extract_path": null
+    "data_extract_path":
+        [
+            {
+                "colName": "Name",
+                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/text()"
+            },
+            {
+                "colName": "Director",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[6]/a/span/text()"
+            },
+            {
+                "colName": "Writer",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[8]/a/span/text()"
+            },
+            {
+                "colName": "Genre",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[4]/*/span/text()"
+            },
+            {
+                "colName": "Cast", 
+                "xPathString": "//*[@id=\"mainColumn\"]/section[6]/div/div/div/div/a/span/text()"
+            },
+            {
+                "colName":"Duration",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[14]/time/text()"
+            },
+            {
+                "colName":"Description",
+                "xPathString":"//*[@id=\"movieSynopsis\"]/text()"
+            },
+            {
+                "colName":"Audience Rating",
+                "xPathString":"//*[@id=\"scorePanel\"]/div[2]/div[2]/div[1]/text()"
+            },
+            {
+                "colName":"Movie Rating",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[2]/text()"
+            },
+            {
+                "colName":"Studio",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[18]/a/text()"
+            },
+            {
+                "colName": "Year", 
+                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()"
+            },
+            {
+                "colName":"Release Date at Theaters",
+                "xPathString": "//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[10]/time/text()"
+            },
+            {
+                "colName":"Release Date on DVD",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[12]/time/text()"
+            },
+            {
+                "colName":"Box Office Revenue",
+                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[14]/text()"
+            }
+        ]
 }
