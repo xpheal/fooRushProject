@@ -27,7 +27,7 @@
 			},
 			{
 				"colName": "Popularity",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()[1]"
 			},
 			{
 				"colName": "Director",
@@ -36,6 +36,10 @@
 			{
 				"colName": "Writer",
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[3]/span/a/span/text()|//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[1]/div[3]/span/a/span/text()"
+			},
+			{
+				"colName": "Description",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()[1]"
 			},
 			{
 				"colName": "Story",
