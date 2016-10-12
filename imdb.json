@@ -15,7 +15,7 @@
 			},
 			{
 				"colName": "Content Rating",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/text()[1]"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[1]/div[1]/div[1]/strong/span/text()"
 			},
 			{
 				"colName": "Release Date",
