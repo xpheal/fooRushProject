@@ -31,11 +31,10 @@ def parseList(tree, xPathString):
 	return none if no data is matched
 	'''
 	result = tree.xpath(xPathString)
-
 	if len(result) <= 0:
 		return None
 	else:
-		return ",".join(result).encode('utf-8').strip()
+		return ",".join(result).encode('utf-8').decode('utf-8').strip()
 
 with open(outputFile, 'w') as csvfile:
 	# Name for the top row
