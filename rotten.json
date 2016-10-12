@@ -31,8 +31,8 @@
             },
             {
                 "colName":"Duration",
-                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[14]/time/text()"
-            },
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div/div[14]/time/text()"
+            },              
             {
                 "colName":"Production",
                 "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[18]/a/text()"
