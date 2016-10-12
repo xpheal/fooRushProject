@@ -1,0 +1,16 @@
+{   
+    "save_html_to_directory": true,
+    "save_data_to_csv": false,
+    "allowed_domains": ["www.rottentomatoes.com"],
+    "start_urls": ["http://www.rottentomatoes.com/"],
+    "csv_output_file": "rottentomatoes_scrape_data.csv",
+    "html_directory_name": "rottentomatoes_html_files",
+    "save_file_regex": "([^/]+)\\/?$",
+    "remove_url_query": false,
+    "deny_page_regex": ["\\/m\\/trailers.*\\/?", "\\/m\\/.*\\/\\?.*\\=.*\\/?" ,"\\/m\\/.*\\/\\d{8}\\/?"],
+    "allow_page_regex": ["\\/m\\/.*\\/?$"],
+    "randomize_download_delay": 1,
+    "download_delay": 0.1,
+    "depth_priority": 1,
+    "data_extract_path": null
+}
