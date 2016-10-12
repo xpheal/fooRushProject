@@ -2,8 +2,12 @@
     "data_extract_path":
         [
             {
-                "colName": "Name",
+                "colName": "Title",
                 "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/text()"
+            },
+            {
+                "colName": "Year", 
+                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()"
             },
             {
                 "colName": "Director",
@@ -40,10 +44,6 @@
             {
                 "colName":"Studio",
                 "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[18]/a/text()"
-            },
-            {
-                "colName": "Year", 
-                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()"
             },
             {
                 "colName":"Release Date at Theaters",
