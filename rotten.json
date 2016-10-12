@@ -11,7 +11,7 @@
             },
             {
                 "colName": "Director",
-                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[6]/a/span/text()"
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[6]/a/span/text()"
             },
             {
                 "colName": "Writer",
