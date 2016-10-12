@@ -14,12 +14,20 @@
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/time/text()"
 			},
 			{
-				"colName": "Content Rating",
+				"colName": "Rating",
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[1]/div[1]/div[1]/strong/span/text()"
+			},
+			{
+				"colName": "Rating Count",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[1]/div[1]/a/span/text()"
 			},
 			{
 				"colName": "Release Date",
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/a/text()"
+			},
+			{
+				"colName": "Popularity",
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[3]/div[2]/div[2]/span/text()"
 			},
 			{
 				"colName": "Director",
