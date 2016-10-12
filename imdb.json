@@ -30,7 +30,11 @@
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[3]/span/a/span/text()|//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[1]/div[3]/span/a/span/text()"
 			},
 			{
-				"colName": "Country, Language",
+				"colName": "Story",
+				"xPathString": "//*[@id=\"titleStoryLine\"]/div[1]/p/text()"
+			},
+			{
+				"colName": "Details",
 				"xPathString": "//*[@id=\"titleDetails\"]/div/a/text()"
 			}
 		]
