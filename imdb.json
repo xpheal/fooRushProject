@@ -23,8 +23,8 @@
 			},
 			{
 				"colName": "Director",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[2]/span/a/span/text()"
-			},
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[2]/span/a/span/text()|//*[@id=\"title-overview-widget\"]/div[3]/div[2]/div[1]/div[2]/span/a/span/text()"
+			},					
 			{
 				"colName": "Writer",
 				"xPathString": "//*[@id=\"title-overview-widget\"]/div[3]/div[1]/div[3]/span/a/span/text()"
