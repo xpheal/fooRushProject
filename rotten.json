@@ -3,7 +3,7 @@
         [
             {
                 "colName": "Title",
-                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/text()|//*[@id=\"movie-title\"]/text()"
+                "xPathString": "//*[@id=\"movie-title\"]/text()"
             },
             {
                 "colName": "Year", 
