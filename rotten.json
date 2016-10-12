@@ -22,18 +22,6 @@
                 "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[4]/*/span/text()"
             },
             {
-                "colName": "Cast", 
-                "xPathString": "//*[@id=\"mainColumn\"]/section[6]/div/div/div/div/a/span/text()"
-            },
-            {
-                "colName":"Duration",
-                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[14]/time/text()"
-            },
-            {
-                "colName":"Description",
-                "xPathString":"//*[@id=\"movieSynopsis\"]/text()"
-            },
-            {
                 "colName":"Audience Rating",
                 "xPathString":"//*[@id=\"scorePanel\"]/div[2]/div[2]/div[1]/text()"
             },
@@ -42,7 +30,11 @@
                 "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[2]/text()"
             },
             {
-                "colName":"Studio",
+                "colName":"Duration",
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[14]/time/text()"
+            },
+            {
+                "colName":"Production",
                 "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[18]/a/text()"
             },
             {
@@ -56,6 +48,14 @@
             {
                 "colName":"Box Office Revenue",
                 "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[14]/text()"
+            },
+            {
+                "colName": "Cast", 
+                "xPathString": "//*[@id=\"mainColumn\"]/section[6]/div/div/div/div/a/span/text()"
+            },
+            {
+                "colName":"Description",
+                "xPathString":"//*[@id=\"movieSynopsis\"]/text()"
             }
         ]
 }
