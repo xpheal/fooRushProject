@@ -3,11 +3,11 @@
         [
             {
                 "colName": "Title",
-                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/text()"
+                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/text()|//*[@id=\"movie-title\"]/text()"
             },
             {
                 "colName": "Year", 
-                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()"
+                "xPathString": "//*[@id=\"heroImageContainer\"]/a/h1/span/text()|//*[@id=\"movie-title\"]/span/text()"
             },
             {
                 "colName": "Director",
@@ -27,7 +27,7 @@
             },
             {
                 "colName":"Movie Rating",
-                "xPathString":"//*[@id=\"mainColumn\"]/section[3]/div/div/div[2]/div[2]/text()"
+                "xPathString":"//*[@id=\"mainColumn\"]/section/div/div/div[2]/div[2]/text()"
             },
             {
                 "colName":"Duration",
