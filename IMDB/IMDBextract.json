@@ -3,23 +3,23 @@
 		[
 			{
 				"colName": "Title",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/h1/text()"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/h1/text()"
 			},
 			{
 				"colName": "Category",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/a/span/text()"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/a/span/text()"
 			},
 			{
 				"colName": "Duration",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/time/text()"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/time/text()"
 			},
 			{
 				"colName": "Content Rating",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/text()[1]"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/text()[1]"
 			},
 			{
 				"colName": "Release Date",
-				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div[2]/div[2]/div/a/text()"
+				"xPathString": "//*[@id=\"title-overview-widget\"]/div[2]/div[2]/div/div/div[2]/div/a/text()"
 			},
 			{
 				"colName": "Director",
